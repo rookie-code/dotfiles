@@ -23,7 +23,7 @@ let g:lsc_auto_map = v:true
  
 nmap <leader>ne :NERDTree<cr>
 nmap <leader>nt :NERDTreeToggle<CR>
- 
+vmap <leader>cp "*y<CR>
  
 let dart_html_in_string=v:true
 let g:dart_style_guide = 2

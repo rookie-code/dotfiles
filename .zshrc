@@ -17,6 +17,9 @@ export PATH=$PATH:$ANDROID_HOME/tools/bin
 export PATH=$PATH:$ANDROID_HOME/emulator
 
 
+export PATH=$PATH:~/development/ampl.macos64/
+
+
 
 export PATH=$PATH:~/development/flutter/bin
 
@@ -40,6 +43,7 @@ export PATH=$PATH:~/development/flutter/bin
 
 # Uncomment the following line to change how often to auto-update (in days).
 # zstyle ':omz:update' frequency 13
+
 
 # Uncomment the following line if pasting URLs and other text is messed up.
 # DISABLE_MAGIC_FUNCTIONS="true"
@@ -113,3 +117,4 @@ source $ZSH/oh-my-zsh.sh
 export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
 alias vimSetup="nvim ~/dotfiles/init.vim"
 alias zshSetup="vim ~/dotfiles/.zshrc"
+alias hScaffold="mkdir images styles scripts && touch index.html"
