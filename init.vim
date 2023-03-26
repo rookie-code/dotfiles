@@ -210,6 +210,10 @@ let g:coc_global_extensions = [
     \ 'coc-yaml',
     \ 'coc-markdownlint',
     \ 'coc-markdown-preview-enhanced',
+    \ 'coc-tsserver',
+    \ 'coc-eslint',
+    \ 'coc-prettier',
+    \ 'coc-css'
     \]
 
 " Flutter snippets custom command
@@ -224,3 +228,5 @@ imap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l
 smap <expr> <C-l>   vsnip#available(1)  ? '<Plug>(vsnip-expand-or-jump)' : '<C-l>'
 
 nmap <Esc> :call coc#float#close_all() <CR>
+
+
